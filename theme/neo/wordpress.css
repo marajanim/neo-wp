@@ -20,3 +20,5 @@ body.admin-bar .site-header.nav-enhanced.is-scrolled{top:calc(var(--neo-admin-ba
   body.admin-bar .site-header.nav-enhanced{top:calc(var(--neo-admin-bar-offset) + 8px)}
 }
 @media(max-width:900px){.neo-primary-menu{flex-direction:column;align-items:stretch;width:100%}.neo-primary-menu .sub-menu{position:static;box-shadow:none}.neo-header-cta{margin-left:auto}}
+.contact-form-notice{margin:0 0 18px;padding:14px 18px;border-radius:12px;font-weight:500;line-height:1.5;background:#e9f7ef;color:#1a5e35;border:1px solid #b7e1c6}
+.contact-form-notice-invalid,.contact-form-notice-error{background:#fdecec;color:#8a1f1f;border-color:#f3b9b9}

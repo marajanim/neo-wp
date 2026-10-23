@@ -1,5 +1,6 @@
 <?php
 defined('ABSPATH') || exit;
+require_once __DIR__.'/inc/contact-form.php';
 function neo_set_owner($owner) { $GLOBALS['neo_owner']=(int)$owner; }
 function neo_owner() { return $GLOBALS['neo_owner']??get_queried_object_id(); }
 function neo_value($key) {
