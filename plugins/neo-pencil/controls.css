@@ -1,0 +1,31 @@
+body.neo-editor-available .neo-pencil-launcher {
+  position: fixed;
+  z-index: 2147483600;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  left: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 18px;
+  border: 1px solid #e2d6f6;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 36px #0003;
+  color: #6920b2;
+  font: 600 14px/1.4 system-ui, sans-serif;
+  text-decoration: none;
+}
+.neo-pencil-launcher:focus-visible { outline: 3px solid #8b42da; outline-offset: 3px; }
+html body.neo-editor-available #wpadminbar,
+html body.neo-editor-available #wpadminbar *,
+html body.neo-editor-available .neo-pencil-launcher { cursor: pointer !important; }
+html body.neo-pencil-active,
+html body.neo-pencil-active * { cursor: auto !important; }
+html body.neo-pencil-active a,
+html body.neo-pencil-active button,
+html body.neo-pencil-active [data-neo-field],
+html body.neo-pencil-active [data-neo-field] *,
+html body.neo-pencil-active [data-neo-image] { cursor: pointer !important; }
+html body.neo-pencil-active input,
+html body.neo-pencil-active textarea { cursor: text !important; }
+body.neo-pencil-active .cursor { display: none !important; }

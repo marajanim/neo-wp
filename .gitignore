@@ -1,0 +1,12 @@
+# Local WordPress and build artefacts
+node_modules/
+vendor/
+*.zip
+*.log
+.DS_Store
+Thumbs.db
+
+# LocalWP and WordPress runtime data
+wp-content/uploads/
+wp-content/cache/
+wp-config.php

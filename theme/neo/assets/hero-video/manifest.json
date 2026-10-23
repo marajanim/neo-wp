@@ -1,0 +1,12 @@
+{
+  "home": {
+    "desktop": "assets/hero-video/home-desktop-5a173bd7c87a.mp4",
+    "mobile": "assets/hero-video/home-mobile-5a173bd7c87a.mp4",
+    "poster": "assets/hero-video/home-poster-5a173bd7c87a.webp"
+  },
+  "services": {
+    "desktop": "assets/hero-video/services-desktop-079752197ada.mp4",
+    "mobile": "assets/hero-video/services-mobile-079752197ada.mp4",
+    "poster": "assets/hero-video/services-poster-079752197ada.webp"
+  }
+}
